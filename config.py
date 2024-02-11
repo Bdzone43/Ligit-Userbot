@@ -6,13 +6,13 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 
-API_ID = int(getenv("API_ID", "29880176")) #optional
-API_HASH = getenv("API_HASH", "") #optional
+API_ID = int(getenv("API_ID", "29723998")) #optional
+API_HASH = getenv("API_HASH", "a4d16ec31f75ee13de26a10eb0e8d4e2") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = int(getenv("OWNER_ID", ""))
-MONGO_URL = getenv("MONGO_URL", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+OWNER_ID = int(getenv("OWNER_ID", "6230269542"))
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://gannihoo:gannihoo@cluster0.mvaczfo.mongodb.net/?retryWrites=true&w=majority")
+BOT_TOKEN = getenv("BOT_TOKEN", "6832944306:AAGkVV2L5KEBFFgMgGolpb1lfnLVxzlniJM")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://te.legra.ph/file/d735867c2930509c1283b.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
